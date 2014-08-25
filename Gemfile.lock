@@ -1,0 +1,76 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    coderay (1.1.0)
+    diff-lcs (1.2.5)
+    fabrication (2.11.3)
+    faker (1.4.3)
+      i18n (~> 0.5)
+    ffi (1.9.3-java)
+    hold (1.0.1)
+      sequel (~> 3)
+      thin_models (~> 0.1.4)
+      wirer (>= 0.4.0)
+    http_router (0.11.1)
+      rack (>= 1.0.0)
+      url_mount (~> 0.2.1)
+    i18n (0.6.11)
+    jdbc-sqlite3 (3.7.2.1)
+    lotus-router (0.1.1)
+      http_router (~> 0)
+      lotus-utils (~> 0)
+    lotus-utils (0.2.0)
+    method_source (0.8.2)
+    pry (0.10.1)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    pry (0.10.1-java)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+      spoon (~> 0.0)
+    rack (1.5.2)
+    require_all (1.3.2)
+    rspec (3.0.0)
+      rspec-core (~> 3.0.0)
+      rspec-expectations (~> 3.0.0)
+      rspec-mocks (~> 3.0.0)
+    rspec-core (3.0.4)
+      rspec-support (~> 3.0.0)
+    rspec-expectations (3.0.4)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.0.0)
+    rspec-mocks (3.0.4)
+      rspec-support (~> 3.0.0)
+    rspec-support (3.0.4)
+    sequel (3.48.0)
+    shotgun (0.9)
+      rack (>= 1.0)
+    slop (3.6.0)
+    spoon (0.0.4)
+      ffi
+    sqlite3 (1.3.9)
+    thin_models (0.1.4)
+    torqbox (0.1.7-java)
+      rack (>= 1.4.0, < 2.0)
+    url_mount (0.2.1)
+      rack
+    wirer (0.5.1)
+
+PLATFORMS
+  java
+  ruby
+
+DEPENDENCIES
+  fabrication
+  faker
+  hold
+  jdbc-sqlite3
+  lotus-router
+  pry
+  require_all
+  rspec
+  shotgun
+  sqlite3
+  torqbox
