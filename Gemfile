@@ -17,6 +17,7 @@ end
 
 group :test do
   gem 'rspec'
+  gem 'rspec-mocks'
   gem 'fabrication'
   gem 'faker'
 end
@@ -24,4 +25,6 @@ end
 group :development do
   gem 'shotgun'
   gem 'pry'
+  gem 'guard'
+  gem 'guard-rspec'
 end
